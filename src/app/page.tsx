@@ -8,6 +8,11 @@ import IntakeFormEmbed from "@/components/IntakeFormEmbed";
 import AboutSection from "@/components/AboutSection";
 import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
+export const metadata = {
+  title: "Eclipsed Citadel | AI-Powered Content Studio for Small Businesses",
+  description: "Affordable, automated content creation—videos, graphics, blogs—designed to help your business grow.",
+};
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-white">
