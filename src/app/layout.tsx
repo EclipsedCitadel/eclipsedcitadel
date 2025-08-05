@@ -17,6 +17,7 @@ const lato = Lato({
 
 // Global SEO Metadata
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.eclipsedcitadel.com"), // ✅ Fix for Open Graph + Twitter
   title: "Eclipsed Citadel | AI-Powered Content Studio for Small Businesses",
   description:
     "Affordable, automated content creation—videos, graphics, blogs—designed to help your business grow.",
